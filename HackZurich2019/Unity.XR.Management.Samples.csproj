@@ -73,11 +73,11 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

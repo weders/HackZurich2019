@@ -157,6 +157,11 @@
     <Compile Include="Assets\MagicLeap\Examples\Scripts\WorldScaleExample.cs" />
     <Compile Include="Assets\MagicLeap\Scripts\MLVersion.cs" />
     <Compile Include="Assets\ProductInformationProvider.cs" />
+    <Compile Include="Assets\progressBar.cs" />
+    <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
+    <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
+    <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
+    <Compile Include="Assets\ProgressState.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\MusicService.txt" />
