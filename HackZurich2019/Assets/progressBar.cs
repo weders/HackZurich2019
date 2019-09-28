@@ -5,14 +5,10 @@ using UnityEngine;
 public class progressBar : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    double Co2State = 0;
 
-    // Update is called once per frame
-    void Update()
+    void OnCO2StatusReceived(double newState)
     {
-        
-    }
+        Co2State = newState;
+    }    
 }

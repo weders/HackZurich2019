@@ -23,20 +23,22 @@ namespace MagicLeap
     public class ProductInformationProvider : MonoBehaviour
     {
 
-        [System.Serializable]
-        private class CO2CostReceivingEvent : UnityEvent<double>{};
-        [SerializeField, Space]
-        private CO2CostReceivingEvent OnCostReceivedEvent = null;
+        private ProgressBar progressBar;
 
-        private void OnCostReceived(double usage)
-        {
-            OnCostReceivedEvent.Invoke(usage);
-        }
-
+        ///[System.Serializable]
+        ///private class CO2CostReceivingEvent : UnityEvent<double>{};
+        //[SerializeField, Space]
+        //private CO2CostReceivingEvent OnCostReceivedEvent = null;
 
         #region Public Variables
         public Text co2ConsumptionText, healthText, productText, originText;
+        public static double co2ConsumptionState;
         #endregion
+
+        void Awake()
+        {
+            progressBar = GameObject.FindObjectOfType<ProgressBar>();
+        }
 
         int co2value = 0;
         int healthScore = 0;
@@ -55,7 +57,8 @@ namespace MagicLeap
         int currentCountry;
         int currentProduct;
 
-        double totalCO2 = 100;
+        double totalCO2 = 10;
+        double currentUsage;
 
         #region Event Handlers
         /// <summary>
@@ -64,7 +67,7 @@ namespace MagicLeap
         /// <param name="texture">The new image that got captured.</param>
         public void OnImageCaptured(Texture2D texture)
         {
-            co2value += co2sampler.Next(0, 10);
+            co2value += co2sampler.Next(0, 20);
             healthScore += healthSampler.Next(0, 10);
 
             co2ConsumptionText.text = "going up to " + co2value.ToString();
@@ -76,7 +79,14 @@ namespace MagicLeap
             originText.text = Countries[currentCountry];
             productText.text = Products[currentProduct];
 
-            
+            currentUsage = Convert.ToDouble(co2value) / totalCO2;
+            Debug.Log(currentUsage);
+            Debug.Log(totalCO2);
+            co2ConsumptionState = currentUsage;
+
+            Awake();
+            progressBar.UpdateProgressBar(co2ConsumptionState);
+
         }
         #endregion
     }
