@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using MagicLeap;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +18,7 @@ public class ProgressBar : MonoBehaviour
     public int TitleFontSize = 10;
 
     [Header("Bar Setting")]
-    public Color BarColor;   
+    public Color BarColor;
     public Color BarBackGroundColor;
     public Sprite BarBackGroundSprite;
     [Range(1f, 100f)]
@@ -26,27 +28,25 @@ public class ProgressBar : MonoBehaviour
     [Header("Sound Alert")]
     public AudioClip sound;
     public bool repeat = false;
-    public float RepeatRate = 1f;
+    public double RepeatRate = 1f;
 
     private Image bar, barBackground;
-    private float nextPlay;
+    private double nextPlay;
     private AudioSource audiosource;
     private Text txtTitle;
-    private float barValue;
-    public float BarValue
+    private double barValue;
+    public double BarValue
     {
         get { return barValue; }
 
         set
         {
-            value = Mathf.Clamp(value, 0, 100);
+            value = Mathf.Clamp((float)value, 0, 100);
             barValue = value;
             UpdateValue(barValue);
 
         }
     }
-
-        
 
     private void Awake()
     {
@@ -65,7 +65,7 @@ public class ProgressBar : MonoBehaviour
         txtTitle.fontSize = TitleFontSize;
 
         bar.color = BarColor;
-        barBackground.color = BarBackGroundColor; 
+        barBackground.color = BarBackGroundColor;
         barBackground.sprite = BarBackGroundSprite;
 
         UpdateValue(barValue);
@@ -73,10 +73,10 @@ public class ProgressBar : MonoBehaviour
 
     }
 
-    void UpdateValue(float val)
+    void UpdateValue(double val)
     {
-        bar.fillAmount = val / 100;
-        txtTitle.text = Title + " " + val + "%";
+        bar.fillAmount = (float)val;
+        txtTitle.text = Title + " " + val * 100 + "%";
 
         if (Alert >= val)
         {
@@ -90,28 +90,19 @@ public class ProgressBar : MonoBehaviour
     }
 
 
-    private void Update()
+    public void UpdateProgressBar(double value)
     {
-        if (!Application.isPlaying)
-        {           
-            UpdateValue(50);
-            txtTitle.color = TitleColor;
-            txtTitle.font = TitleFont;
-            txtTitle.fontSize = TitleFontSize;
+        
+        UpdateValue(value);
+        txtTitle.color = TitleColor;
+        txtTitle.font = TitleFont;
+        txtTitle.fontSize = TitleFontSize;
 
-            bar.color = BarColor;
-            barBackground.color = BarBackGroundColor;
+        bar.color = BarColor;
+        barBackground.color = BarBackGroundColor;
 
-            barBackground.sprite = BarBackGroundSprite;           
-        }
-        else
-        {
-            if (Alert >= barValue && Time.time > nextPlay)
-            {
-                nextPlay = Time.time + RepeatRate;
-                audiosource.PlayOneShot(sound);
-            }
-        }
-    }
+        barBackground.sprite = BarBackGroundSprite;
+        
+    } 
 
 }

@@ -161,6 +161,7 @@
     <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
     <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
+    <Compile Include="Assets\ProgressBarState.cs" />
     <Compile Include="Assets\ProgressState.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />

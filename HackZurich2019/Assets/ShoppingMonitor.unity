@@ -260,6 +260,11 @@ PrefabInstance:
       propertyPath: Title
       value: Carbon Budget
       objectReference: {fileID: 0}
+    - target: {fileID: 114769781544105922, guid: 5eefba205a58c8c4a937c97b87c185a3,
+        type: 3}
+      propertyPath: Alert
+      value: 49
+      objectReference: {fileID: 0}
     - target: {fileID: 224745179381614346, guid: 5eefba205a58c8c4a937c97b87c185a3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -773,6 +778,7 @@ GameObject:
   - component: {fileID: 731159458}
   - component: {fileID: 731159457}
   - component: {fileID: 731159460}
+  - component: {fileID: 731159461}
   m_Layer: 0
   m_Name: Image Capture Example
   m_TagString: Untagged
@@ -858,6 +864,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 731159461}
+        m_MethodName: OnImageCaptured
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture2D, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &731159460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,13 +887,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085bff9a00acb441cad1436f72b65d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnCostReceivedEvent:
-    m_PersistentCalls:
-      m_Calls: []
   co2ConsumptionText: {fileID: 1247781905}
   healthText: {fileID: 1285105355}
   productText: {fileID: 343992910}
   originText: {fileID: 1731619345}
+--- !u!114 &731159461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731159455}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149d864443ddca94ba93b092e7acd5ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: 
+  TitleColor: {r: 0, g: 0, b: 0, a: 0}
+  TitleFont: {fileID: 0}
+  TitleFontSize: 10
+  BarColor: {r: 0, g: 0, b: 0, a: 0}
+  BarBackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  BarBackGroundSprite: {fileID: 0}
+  Alert: 20
+  BarAlertColor: {r: 0, g: 0, b: 0, a: 0}
+  sound: {fileID: 0}
+  repeat: 0
+  RepeatRate: 1
 --- !u!1 &1042338387
 GameObject:
   m_ObjectHideFlags: 0
