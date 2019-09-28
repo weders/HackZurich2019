@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{B09F12EA-D42E-8993-87B0-BDE5013BFA15}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MagicLeap/Examples/Scripts/ImageCaptureExample.cs">
+    <Files>
+      <File FileName="Assets/MagicLeap/Examples/Scripts/Visualizers/ImageCaptureVisualizer.cs" Line="30" Column="54" />
+      <File FileName="Assets/ProductInformationProvider.cs" Line="31" Column="14" />
+      <File FileName="Assets/MagicLeap/Core/Scripts/HeadposeCanvas.cs" Line="1" Column="1" />
+      <File FileName="Assets/MagicLeap/Examples/Scripts/ImageCaptureExample.cs" Line="278" Column="10" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HackZurich2019" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="MagicLeap" expanded="True">
+                <Node name="Core" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="Examples" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Visualizers" expanded="True" />
+                    <Node name="ImageCaptureExample.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8e2d6253-1b72-45d4-9711-f3c7f69b5f3a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

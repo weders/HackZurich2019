@@ -1,0 +1,304 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "603702ff6bbdac94da08bb9a75381a3bd8c3812a",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3289500,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "45411232e9680262357dfa7bf6c1090160b82bdb",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 53328864,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c9780e9c47c2e91180380be1657ad841a8626804",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/libil2cpp.so-8417d36115909588",
+   "xfrm_size": 53329622
+  },
+  {
+   "compression": 8,
+   "hash": "fa2b8ff146caf64688e7aa835af0034ca81b5505",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 282448,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "64c77993c8cd3e823f7fd33fd21f127c44b57ee5",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/AudioPluginMSASpatializer.so-ba85cdaf4c7f80be",
+   "xfrm_size": 283206
+  },
+  {
+   "compression": 8,
+   "hash": "2aa7c9e8f8d212f71708862c762e37aca0f4dba0",
+   "pkgpath": "bin/LuminMediaPlayer.dll",
+   "size": 68096,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/LuminMediaPlayer.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "219fde757fab2479b0972d9138c284827408a074",
+   "pkgpath": "bin/LuminUnity.dll",
+   "size": 329216,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/LuminUnity.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "b8ce049d2e85f27cc7346d7551d1853b20e78461",
+   "pkgpath": "bin/MSA.Runtime.dll",
+   "size": 22016,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/MSA.Runtime.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "a71acc50817a0929bccc93cbe7619d57d25d1b17",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3077192,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "47f7727f125aeeead34d3593c4e9cab28102567d",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/UnityMagicLeap.so-ba85cdaf4c7f80be",
+   "xfrm_size": 3077950
+  },
+  {
+   "compression": 8,
+   "hash": "fbfa4a6aa20b14e0f60550676e5d34bebb99d46d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "00ba4c90a028dfa1dfae8fcb14b21aba31086e07",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/libml_camera_plugin.so-ba85cdaf4c7f80be",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "88ac1047e0ac5686d703471c3115f719ca66a4e8",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "89051fb770d16189dc1335e8fbde0ee48fc7cbc2",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/libml_mediaplayer_plugin.so-ba85cdaf4c7f80be",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "fa10859a933989c5961257c02d9f4fcf042044f1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3689324,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "e0447b3beab1d947976255051aaeb8ca8f0ebe62",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 942768,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "f226dfc0f1097b18c77eb2198b6257be5b02a613",
+   "pkgpath": "Data/boot.config",
+   "size": 123,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "cba58d453293910c70de7e33168b2f592e66d417",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 60112,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "7a4d2cd683b646ef138bce90c5bfcada749c7c0f",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 84440,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "6dbcc2f111eabe771181fd0c3baa34eedeeddeed",
+   "pkgpath": "Data/level0",
+   "size": 18144,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "ab65805793388d15a2837e363df1ccb966517059",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "bf0893e7da072ed9b039f396974cfe0f03bf620a",
+   "pkgpath": "Data/resources.assets",
+   "size": 49536,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "1d5e5447a0f0b085b695376c9fdb7738e07e4f23",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "72df8187e8b57e64fb93926431a0053987da4917",
+   "pkgpath": "Data/resources.resource",
+   "size": 5875136,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/resources.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "6fe46726d1bd8784055ddff125be61b7d8d58e4e",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1498798,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "9422dfd560a96bc0c54d66307a149af34615401c",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 524288,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "5a990adf80af58a3b4076892dfb52e1813211a8d",
+   "pkgpath": "bin/Player.elf",
+   "size": 20710840,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "186e240a2e9ee86c78d1e2b5a211b8e105f97d25",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/Player.elf-e8a9ff209b64b2ce",
+   "xfrm_size": 20711598
+  },
+  {
+   "compression": 8,
+   "hash": "78681f9b56ba4028d4a2d42ee8eaa5236b1e8995",
+   "pkgpath": "manifest.xml",
+   "size": 735,
+   "src": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "879b37b4f81bd46705ed2218daaec217f35c0342",
+     "developer_id": "2c62ab12-9811-4b1c-9690-9cbf5031de2b"
+    }
+   },
+   "xfrm_hash": "55c3115920bbabdc365d850e6652ab4fe7883b01",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/manifest.xml-e8a9ff209b64b2ce",
+   "xfrm_size": 748
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/silvanadrianweder/MagicLeap/mlsdk/v0.22.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "521fea350efe4beffd34d874c96529e3495c29cc",
+   "xfrm_path": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/HackZurich2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.hackzurich2019-06ad8deec7740040/libc++_shared.so-a8be12fd29499e3b",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/silvanadrianweder/Desktop/projects/HackZurich2019/privatekey/hack2019.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

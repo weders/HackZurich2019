@@ -1,0 +1,12 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="2c62ab12-9811-4b1c-9690-9cbf5031de2b" ml:package="com.company.hackzurich2019" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="4" ml:sdk_version="1.0" ml:visible_name="HackZurich2019">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="HackZurich2019">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="CameraCapture" />
+  </application>
+</manifest>
