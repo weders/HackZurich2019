@@ -310,7 +310,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'You bought a:'
+  m_Text: 
 --- !u!222 &343992911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -681,8 +681,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085bff9a00acb441cad1436f72b65d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnCostReceivedEvent:
+    m_PersistentCalls:
+      m_Calls: []
   co2ConsumptionText: {fileID: 1247781905}
   healthText: {fileID: 1285105355}
+  productText: {fileID: 343992910}
+  originText: {fileID: 1731619345}
 --- !u!1 &1042338387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1228,7 @@ GameObject:
   - component: {fileID: 1731619346}
   - component: {fileID: 1731619345}
   m_Layer: 5
-  m_Name: OriginText (1)
+  m_Name: OriginValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1279,7 +1284,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coming from:'
+  m_Text: 
 --- !u!222 &1731619346
 CanvasRenderer:
   m_ObjectHideFlags: 0
