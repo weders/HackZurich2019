@@ -22,7 +22,7 @@ namespace MagicLeap
     public class ImageCaptureExample : MonoBehaviour
     {
         [System.Serializable]
-        private class ImageCaptureEvent : UnityEvent<Texture2D>
+        private class ImageCaptureEvent : UnityEvent<byte[]>
         {}
 
         #region Private Variables
@@ -273,7 +273,8 @@ namespace MagicLeap
 
             if (status && (texture.width != 8 && texture.height != 8))
             {
-                OnImageReceivedEvent.Invoke(texture);
+                Debug.Log("sending image");
+                OnImageReceivedEvent.Invoke(imageData);
             }
         }
 

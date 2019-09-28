@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 [ExecuteInEditMode]
 
-public class ProgressBar : MonoBehaviour
+public class CaloriesProgressBar : MonoBehaviour
 {
 
     [Header("Title Setting")]
@@ -22,7 +22,7 @@ public class ProgressBar : MonoBehaviour
     public Color BarBackGroundColor;
     public Sprite BarBackGroundSprite;
     [Range(1f, 100f)]
-    public float Alert = 20;
+    public int Alert = 20;
     public Color BarAlertColor;
 
     [Header("Sound Alert")]
@@ -78,7 +78,7 @@ public class ProgressBar : MonoBehaviour
         bar.fillAmount = (float)val;
         txtTitle.text = Title + " " + val * 100 + "%";
 
-        if (val * 100 >= Alert)
+        if (Alert >= val * 100)
         {
             bar.color = BarAlertColor;
         }
@@ -92,7 +92,7 @@ public class ProgressBar : MonoBehaviour
 
     public void UpdateProgressBar(double value)
     {
-        
+
         UpdateValue(value);
         txtTitle.color = TitleColor;
         txtTitle.font = TitleFont;
@@ -102,7 +102,7 @@ public class ProgressBar : MonoBehaviour
         barBackground.color = BarBackGroundColor;
 
         barBackground.sprite = BarBackGroundSprite;
-        
-    } 
+
+    }
 
 }

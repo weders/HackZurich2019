@@ -27,17 +27,17 @@ namespace MagicLeap
         /// Updates preview object with new captured image
         /// </summary>
         /// <param name="texture">The new image that got captured.</param>
-        public void OnImageCaptured(Texture2D texture)
+        public void OnImageCaptured(byte[] texture)
         {
-            if(_previewObject != null)
-            {
-                _previewObject.SetActive(true);
-                Renderer renderer = _previewObject.GetComponent<Renderer>();
-                if(renderer != null)
-                {
-                    renderer.material.mainTexture = texture;
-                }
-            }
+            //if(_previewObject != null)
+            //{
+            //    _previewObject.SetActive(true);
+            //    Renderer renderer = _previewObject.GetComponent<Renderer>();
+            //    if(renderer != null)
+            //    {
+            //        renderer.material.mainTexture = texture;
+            //    }
+            //}
         }
         #endregion
     }
